@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+:root {
+    --white: #fff;
+    --background-header: #696969;
+    --background-body: #c0c0c0;
+    --gray-line: #dcdde0;
+    --text: #D3D3D3;
+    --text-header: #a9a9a9;
+    --black: #000;
+
+}
+
+body {
+    background: var(--background-body);
+}

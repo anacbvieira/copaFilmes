@@ -1,0 +1,12 @@
+.container{
+   margin: 4rem 4rem 4rem 3rem;
+}
+
+.listMovies {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    list-style: none;
+    margin-top: 1rem;
+    padding: 0;
+}

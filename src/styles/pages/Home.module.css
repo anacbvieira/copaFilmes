@@ -1,0 +1,33 @@
+.container {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.select {
+    font-size: 1.5rem;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.selectButton {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2rem 4rem;
+}
+
+.selectButton button {
+    background: var(--black);
+    color: var(--white);
+    font-size: 0.75rem;
+    height: 3rem;
+    width: 15rem;
+    border: 0;
+    text-transform: uppercase;
+    transition:  background-color 0.2s;
+}
+
+
+.selectButton button:disabled {
+    cursor: not-allowed;
+}
